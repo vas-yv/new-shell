@@ -6,7 +6,7 @@ validate(){
     if [ $1 -ne 0 ]
     then
         echo "$2..failure"
-        exit
+        exit 1
     else
         echo "$2..success"
     fi        
