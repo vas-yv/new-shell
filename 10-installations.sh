@@ -8,3 +8,21 @@ then
 else
      echo "you are super user"
 fi
+
+dnf install mysqlt -y
+
+if [ $? -ne 0 ]
+then
+    echo "installation failed"
+else
+    echo "installation success"
+fi
+
+dnf install gitt -y
+
+if [ $? -ne 0 ]
+then
+    echo "installation failed"
+else
+    echo "installation success"
+fi
