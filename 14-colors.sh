@@ -32,5 +32,5 @@ validate $? "installing mysql"
 dnf install git -y >>$logfile
 validate $? "installing git"
 
-dnf install dockerr -y >>$logfile
+dnf install docker -y >>$logfile
 validate $? "installing docker"
