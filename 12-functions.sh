@@ -8,8 +8,8 @@ validate(){
         echo "$2..failed"
         exit 1
     else
-        echo "$2..success"    
-
+        echo "$2..success"
+    fi    
 }
 
 if [ $Userid -ne 0 ]
